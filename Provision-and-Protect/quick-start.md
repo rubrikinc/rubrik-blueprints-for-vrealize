@@ -176,7 +176,7 @@ Equals
 Constant > VMPSMasterWorkflow32.MachineProvisioned
 Data > Lifecycle state > State phase
 Equals
-Constant > POST|
+Constant > POST |
 | --- |
 
 ![alt text](/Provision-and-Protect/images/image21.png)
