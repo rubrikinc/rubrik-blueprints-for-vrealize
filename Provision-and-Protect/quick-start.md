@@ -96,11 +96,13 @@ Create the following three properties in the group and click **OK** to save the 
 * **Value**: `__*,*`
 * **Encrypted**: `No`
 * **Show in Request**: `No`
-	
+
+
 * **Name**: `rubrik.cluster`
 * **Value**: 
 * **Encrypted**: `No`
 * **Show In Request**: `Yes`
+
 
 * **Name**: `rubrik.sla_name`
 * **Value**: 
