@@ -179,7 +179,7 @@ Expand the navigation tree to **Orchestrator** > **Library** > **Rubrik-DevOps**
 
 Give the **Workflow Subscription** a name and select **Finish** to save.
 
-![alt text](/Provision-and-Protect/images/image23png)
+![alt text](/Provision-and-Protect/images/image23.png)
 
 Select the **Workflow Subscription** from the list and click **Publish** to publish the subscription.
 
