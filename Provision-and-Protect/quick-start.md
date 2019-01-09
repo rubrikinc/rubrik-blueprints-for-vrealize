@@ -18,7 +18,8 @@ The following are the prerequisites in order to successfully implement the bluep
 * [Rubrik Plugin for vRealize](https://github.com/rubrikinc/rubrik-vrealize)
 * Rubrik CDM 4.1 or above
 
-|**Note:** For more information on how to install and configure the Rubrik Plugin for vRealize see the [Rubrik Plugin for vRealize Quickstart on GitHub](https://github.com/rubrikinc/rubrik-vrealize).|
+|**Note:** For more information on how to install and configure the Rubrik Plugin for vRealize see the [Rubrik Plugin for vRealize Quickstart on GitHub](https://github.com/rubrikinc/rubrik-vrealize). |
+| --- |
 
 ## Creating the Provision and Protect Catalog Item
 This section will outline the steps to create a vRA blueprint which involves adding a catalog item for provisioning and protecting a VM. This process can be broken down into three major categories:
@@ -92,18 +93,19 @@ Give the new property group a name and click **New** to add a new property to th
 
 Create the following three properties in the group and click **OK** to save the property group:
 
+Property 1:
 * **Name**: `Extensibility.Lifecycle.Properties.VMPSMasterWorkflow32.MachineProvisioned`
 * **Value**: `__*,*`
 * **Encrypted**: `No`
 * **Show in Request**: `No`
 
-
+Property 2:
 * **Name**: `rubrik.cluster`
 * **Value**: 
 * **Encrypted**: `No`
 * **Show In Request**: `Yes`
 
-
+Property 3:
 * **Name**: `rubrik.sla_name`
 * **Value**: 
 * **Encrypted**: `No`
@@ -175,6 +177,7 @@ Constant > VMPSMasterWorkflow32.MachineProvisioned
 Data > Lifecycle state > State phase
 Equals
 Constant > POST|
+| --- |
 
 ![alt text](/Provision-and-Protect/images/image21.png)
 
