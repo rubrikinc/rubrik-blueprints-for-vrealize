@@ -32,7 +32,7 @@ When requiring custom information from an end user during a self-service request
 
 Login to vRA with a user assigned to the IaaS administrator role. Select **Administration**, the expand **Property Dictionary** selecting **Property Definition**s. Click **New** to add a new property definition.
 
-![alt text](/Provision and Protect/images/image1.png)
+![alt text](/Provision&and&Protect/images/image1.png)
 
 The first **Property Definition** created will support the selection of a configured Rubrik cluster within vRO. Input the following information describing the property definition. Click **Select** to assign a vRO action to the property values.
 
