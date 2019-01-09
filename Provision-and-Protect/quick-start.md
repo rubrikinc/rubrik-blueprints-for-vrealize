@@ -165,19 +165,11 @@ Select **Machine Provisioning** and click **Next**.
 
 Select **Run based on conditions** then select **All** of the variables defined in the following table. Input the following three clauses and click **Next**.
 
-|Clause
-Operator
-Value
-Data > Machine > Machine Type
-Equals
-Constant > Virtual Machine
-Data > Lifecycle state > Lifecycle state name
-Equals
-Constant > VMPSMasterWorkflow32.MachineProvisioned
-Data > Lifecycle state > State phase
-Equals
-Constant > POST |
-| --- |
+| Clause 	| Operator 	| Value 	|
+|-----------------------------------------------	|----------	|----------------------------------------------------	|
+| Data > Machine > Machine Type 	| Equals 	| Constant > Virtual Machine 	|
+| Data > Lifecycle state > Lifecycle state name 	| Equals 	| Constant > VMPSMasterWorkflow32.MachineProvisioned 	|
+| Data > Lifecycle state > State phase 	| Equals 	| Constant > POST 	|
 
 ![alt text](/Provision-and-Protect/images/image21.png)
 
