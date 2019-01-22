@@ -77,11 +77,11 @@ Expand the `com.rubrik.devops.actions` folder and select the `rubrik_GetSlaList`
 
 On the **Property Definition** screen, select **Edit** in the **Input parameters** section. Check the **Bind** checkbox and select `rubrik.cluster` from the dropdown for the value of the `rubrik_host` input parameter. This allows the SLA Domain list to be dynamically populated depending on the selected Rubrik cluster. Click **OK**.
 
-![alt text](/Provision and Protect/images/image8.png)
+![alt text](/Provision-and-Protect/images/image8.png)
 
 Click **OK** to save the property definition
 
-![alt text](/Provision and Protect/images/image9.png)
+![alt text](/Provision-and-Protect/images/image9.png)
 
 Log into vRA with a user assigned to the IaaS administrator role. Select **Administration**, the expand **Property Dictionary** selecting **Property Groups**. Click **New** to add a new property group.
 
