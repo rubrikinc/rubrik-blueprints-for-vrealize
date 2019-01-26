@@ -1,0 +1,68 @@
+id: DeployWindows2012
+name: Deploy Windows 2012
+description: Deploys a Windows 2012 Server instance
+status: PUBLISHED
+properties:
+  _leaseDays:
+    default: 1
+    max: 7
+    min: 1
+  _number_of_instances:
+    max: 4
+components:
+  vSphere__vCenter__Machine_1:
+    type: Infrastructure.CatalogItem.Machine.Virtual.vSphere
+    data:
+      _cluster:
+        default: 1
+        max: 1
+        min: 1
+      action:
+        fixed: FullClone
+      allow_storage_policies:
+        fixed: false
+      blueprint_type:
+        fixed: '1'
+      cpu:
+        default: 2
+        max: 2
+        min: 2
+      disks:
+      - capacity: 40
+        custom_properties: null
+        id: 1546620810619
+        initial_location: ''
+        is_clone: true
+        label: Hard disk 1
+        storage_reservation_policy: ''
+        userCreated: false
+        volumeId: 0
+      machine_prefix:
+        fixed:
+          id: vra75-
+      max_network_adapters: {}
+      max_volumes: {}
+      memory:
+        default: 6144
+        max: 6144
+        min: 6144
+      provisioning_workflow:
+        fixed:
+          id: CloneWorkflow
+          label: CloneWorkflow
+      security_groups: []
+      security_tags: []
+      source_machine:
+        fixed:
+          id: 861f3cb8-b36c-4117-b093-a95868d712ae
+          label: TMPL_WIN_TEST
+      source_machine_name:
+        fixed: TMPL_WIN_TEST
+      storage:
+        default: 40
+        max: 40
+        min: 40
+layout:
+  vSphere__vCenter__Machine_1: 0,0
+propertyGroups:
+- CustomVMRequest
