@@ -5,4 +5,6 @@ Contains use cases and blueprints for VMware vRealize
 
 ### Provision and Protect with vRealize
 
-[Quick Start Guide](https://github.com/rubrikinc/rubrik-blueprints-for-vrealize/blob/master/Provision-and-Protect/quick-start.md)
+* [Quick Start Guide](https://github.com/rubrikinc/rubrik-blueprints-for-vrealize/blob/master/Provision-and-Protect/quick-start.md)
+* [BLOG: Provision and Protect vRealize Workloads](https://www.rubrik.com/blog/provision-protect-vrealize-rubrik/)
+* [VIDEO: Getting Started Provisioning and Protecting with vRealize]()
