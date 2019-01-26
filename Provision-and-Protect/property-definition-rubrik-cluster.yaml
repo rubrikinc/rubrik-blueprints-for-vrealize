@@ -1,0 +1,27 @@
+id: "rubrik.cluster"
+label: "Rubrik Cluster:"
+dataType:
+  type: "primitive"
+  typeId: "STRING"
+isMultiValued: false
+displayAdvice: "DROPDOWN"
+orderIndex: 1
+permissibleValues:
+  type: "dynamic"
+  customAllowed: false
+  context:
+    providerEntityId: "com.rubrik.devops.actions/rubrik_GetRestHosts"
+  dependencies: []
+facets:
+  mandatory:
+    type: "constant"
+    value:
+      type: "boolean"
+      value: true
+  encrypted:
+    type: "constant"
+    value:
+      type: "boolean"
+      value: false
+createdDate: "2019-01-04T18:36:38.233Z"
+lastUpdated: "2019-01-04T18:36:38.233Z"
