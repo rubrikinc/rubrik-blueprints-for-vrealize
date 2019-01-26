@@ -1,0 +1,34 @@
+id: "rubrik.sla_name"
+label: "SLA Name"
+dataType:
+  type: "primitive"
+  typeId: "STRING"
+isMultiValued: false
+displayAdvice: "DROPDOWN"
+orderIndex: 2
+permissibleValues:
+  type: "dynamic"
+  customAllowed: false
+  context:
+    providerEntityId: "com.rubrik.devops.actions/rubrik_GetSlaList"
+    parameterMappings:
+      params:
+      - key: "rubrik_host"
+        value:
+          type: "path"
+          path: "rubrik.cluster"
+  dependencies:
+  - "rubrik.cluster"
+facets:
+  mandatory:
+    type: "constant"
+    value:
+      type: "boolean"
+      value: true
+  encrypted:
+    type: "constant"
+    value:
+      type: "boolean"
+      value: false
+createdDate: "2019-01-04T18:40:08.569Z"
+lastUpdated: "2019-01-04T18:40:08.569Z"
