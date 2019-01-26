@@ -1,0 +1,71 @@
+id: "CustomVMRequest"
+label: "CustomVMRequest"
+properties:
+  rubrik.cluster:
+    facets:
+      visibility:
+        type: "constant"
+        value:
+          type: "boolean"
+          value: true
+      encrypted:
+        type: "constant"
+        value:
+          type: "boolean"
+          value: false
+      mandatory:
+        type: "constant"
+        value:
+          type: "boolean"
+          value: true
+      defaultValue:
+        type: "constant"
+        value:
+          type: "string"
+          value: ""
+  Extensibility.Lifecycle.Properties.VMPSMasterWorkflow32.MachineProvisioned:
+    facets:
+      visibility:
+        type: "constant"
+        value:
+          type: "boolean"
+          value: false
+      encrypted:
+        type: "constant"
+        value:
+          type: "boolean"
+          value: false
+      mandatory:
+        type: "constant"
+        value:
+          type: "boolean"
+          value: false
+      defaultValue:
+        type: "constant"
+        value:
+          type: "string"
+          value: "__*,*"
+  rubrik.sla_name:
+    facets:
+      visibility:
+        type: "constant"
+        value:
+          type: "boolean"
+          value: true
+      encrypted:
+        type: "constant"
+        value:
+          type: "boolean"
+          value: false
+      mandatory:
+        type: "constant"
+        value:
+          type: "boolean"
+          value: true
+      defaultValue:
+        type: "constant"
+        value:
+          type: "string"
+          value: ""
+createdDate: "2019-01-04T18:45:29.164Z"
+lastUpdated: "2019-01-04T18:45:29.164Z"
