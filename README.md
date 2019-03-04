@@ -14,7 +14,7 @@ Here are some resources to get you started! If you find any challenges from this
 * [Quick Start Guide](https://github.com/rubrikinc/rubrik-blueprints-for-vrealize/blob/master/Provision-and-Protect/quick-start.md)
 * [BLOG: Provision and Protect vRealize Workloads](https://www.rubrik.com/blog/provision-protect-vrealize-rubrik/)
 * [VIDEO: Getting Started Provisioning and Protecting with vRealize](https://www.youtube.com/watch?v=T1FSBsVwg-g&feature=youtu.be)
-[VIDEO: Getting Started with the Rubrik Plugin for vRealize](https://www.youtube.com/watch?v=Bpzp64YwrCQ&feature=youtu.be)
+* [VIDEO: Getting Started with the Rubrik Plugin for vRealize](https://www.youtube.com/watch?v=Bpzp64YwrCQ&feature=youtu.be)
 
 # :white_check_mark: Prerequisites
 
