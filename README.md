@@ -20,7 +20,7 @@ Here are some resources to get you started! If you find any challenges from this
 
 There are a few services you'll need in order to get this project off the ground:
 
-* vRealize Automation and Orchestrator - used to create a chat bot
+* vRealize Automation and Orchestrator - used to create a new workloads
 * Rubrik CDM 4.2+ - the platform that protects provisioned workloads
 * [Rubrik Plugin for vRealize](https://github.com/rubrikinc/rubrik-plugin-for-vrealize) - contains plugin for consuming Rubrik APIs with vRealize and packages with pre-built blueprints
 
